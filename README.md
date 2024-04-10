@@ -1,4 +1,4 @@
-# CNN Combined with Attention Module for Facial Expression Recognition [Accepted at CONF-SEML 2023]
+## CNN Combined with Attention Module for Facial Expression Recognition [Accepted at CONF-SEML 2023]
 
 ### Abstract
 In contemporary times, the proliferation of information technology has prompted an increased interest among scholars towards artificial intelligence, particularly its constituent algorithms, such as deep learning, multilayer perceptron and convolutional neural networks. Of specific interest is the analysis of facial expressions, which has emerged as a popular research topic. However, classifying facial expressions presents a significant challenge due to variations 
@@ -16,3 +16,33 @@ in expressions associated with different emotions, as well as similarities betwe
 <p align="center">
     <em> Figure 2: Squeeze Excitation (SE) Module </em>
 </p>
+
+### Catalogue Structure 
+- The code folder contains the CNN module used in this experiment, I provide both the model with attention module and without attention module, which are completed by Tensorflow.
+- In the dataset folder, I provide the datasets used in this lab, which is divided into training sets and tests sets. The original data comes from https://www.kaggle.com/datasets/msambare/fer2013/code?datasetId=786787.
+
+```
++-- code
+|   +-- Model.py
+|   +-- Model with Attention module.py
++-- dataset
+|   +-- train
+|      +-- angry
+|      +-- disgust
+|      +-- fear
+|      +-- happy
+|      +-- neural
+|      +-- sad
+|      +-- surprise
+|   +-- test
+|      +-- angry
+|      +-- disgust
+|      +-- fear
+|      +-- happy
+|      +-- neural
+|      +-- sad
+|      +-- surprise
++-- CNN.png
++-- SE.png
++-- README.md
+```
