@@ -19,29 +19,12 @@ in expressions associated with different emotions, as well as similarities betwe
 
 ### Catalogue Structure 
 - The code folder contains the CNN module used in this experiment, I provide both the model with attention module and without attention module, which are completed by Tensorflow.
-- In the dataset folder, I provide the datasets used in this lab, which is divided into training sets and tests sets. The original data comes from https://www.kaggle.com/datasets/msambare/fer2013/code?datasetId=786787.
+- As for the datasets, you could download the original data comes from https://www.kaggle.com/datasets/msambare/fer2013/code?datasetId=786787.
 
 ```
 +-- code
 |   +-- Model.py
 |   +-- Model with Attention module.py
-+-- dataset
-|   +-- train
-|      +-- angry
-|      +-- disgust
-|      +-- fear
-|      +-- happy
-|      +-- neural
-|      +-- sad
-|      +-- surprise
-|   +-- test
-|      +-- angry
-|      +-- disgust
-|      +-- fear
-|      +-- happy
-|      +-- neural
-|      +-- sad
-|      +-- surprise
 +-- CNN.png
 +-- SE.png
 +-- README.md
