@@ -22,9 +22,8 @@ in expressions associated with different emotions, as well as similarities betwe
 - As for the datasets, you could download the original data comes from https://www.kaggle.com/datasets/msambare/fer2013/code?datasetId=786787.
 
 ```
-+-- code
-|   +-- Model.py
-|   +-- Model with Attention module.py
++-- Model.py
++-- Model with Attention module.py
 +-- CNN.png
 +-- SE.png
 +-- README.md
