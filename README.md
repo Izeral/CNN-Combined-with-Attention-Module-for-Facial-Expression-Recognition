@@ -23,6 +23,7 @@ in expressions associated with different emotions, as well as similarities betwe
 
 ```
 +-- Model.py
++-- emotion classification.ipynb
 +-- Model with Attention module.py
 +-- CNN.png
 +-- SE.png
