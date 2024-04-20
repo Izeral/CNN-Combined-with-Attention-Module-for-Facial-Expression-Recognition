@@ -18,7 +18,7 @@ in expressions associated with different emotions, as well as similarities betwe
 </p>
 
 ### Catalogue Structure 
-- The code folder contains the CNN module used in this experiment, I provide both the model with attention module and without attention module, which are completed by Tensorflow.
+- The code folder contains the CNN module used in this experiment, I provide both the model with attention module and without attention module, which are completed by Tensorflow. You could also download the emotion classification.ipynb file to achieve the model and the effects of the training.
 - As for the datasets, you could download the original data comes from https://www.kaggle.com/datasets/msambare/fer2013/code?datasetId=786787.
 
 ```
